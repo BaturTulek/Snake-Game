@@ -1,0 +1,52 @@
+
+body, div, p, h1, h2{
+    margin:0px;
+    padding:0px;
+}
+
+#displayPoint{
+    width:50px;
+    height:50px;
+    color: gray;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+body{
+    font-family: Ubuntu;
+}
+
+h1,h2,form{
+    text-align: center;
+    margin:10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin:20px auto;
+    border:2px solid black;
+
+}
+
+td{
+    height:64px;
+    width:64px;
+}
+
+.gray{
+    border:1px solid slategray;
+
+}
+
+.tooltip .tooltiptext {
+    width: 140px;
+    background-color: #ffff99;;
+    color: black;
+    text-align: center;
+    padding: 8px 2px;
+    border-radius: 6px;
+    position: absolute;
+}
